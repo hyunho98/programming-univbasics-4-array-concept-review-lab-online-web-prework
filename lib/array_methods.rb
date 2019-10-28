@@ -3,9 +3,9 @@ def find_element_index(array, value_to_find)
   array_index = nil
 
   array.length.times { |index|
-    if array[index] == value_to_find {
+    if array[index] == value_to_find
       return index
-    }
+    end
   }
   p array_index
 end
