@@ -3,7 +3,6 @@ def find_element_index(array, value_to_find)
   array_index = nil
 
   array.length.times { |index|
-    if array[index] == value_to_find
   }
   p array_index
 end
